@@ -6,9 +6,9 @@ def calculate():
     # Operation (Add or subtract)
     operation = input("Enter the operation (+ or -): ")
     if operation == "+":
-        result = num1 - num2
-    elif operation == "-":
         result = num1 + num2
+    elif operation == "-":
+        result = num1 - num2
     else:
         print("Invalid operation")
         return
